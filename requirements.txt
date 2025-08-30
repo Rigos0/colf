@@ -1,0 +1,3 @@
+tiktoken
+e2b-code-interpreter
+dotenv
