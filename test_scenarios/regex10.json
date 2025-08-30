@@ -1,0 +1,78 @@
+{
+    "ok": true,
+    "pass": false,
+    "results": [
+        {
+            "index": 0,
+            "pass": false,
+            "expected": false,
+            "actual": [
+                "aa",
+                "a"
+            ]
+        },
+        {
+            "index": 1,
+            "pass": false,
+            "expected": true,
+            "actual": [
+                "aa",
+                "a*"
+            ]
+        },
+        {
+            "index": 2,
+            "pass": false,
+            "expected": true,
+            "actual": [
+                "ab",
+                ".*"
+            ]
+        },
+        {
+            "index": 3,
+            "pass": false,
+            "expected": true,
+            "actual": [
+                "",
+                ".*"
+            ]
+        },
+        {
+            "index": 4,
+            "pass": false,
+            "expected": true,
+            "actual": [
+                "mississippi",
+                "mis*is*ip*."
+            ]
+        },
+        {
+            "index": 5,
+            "pass": false,
+            "expected": true,
+            "actual": [
+                "aab",
+                "c*a*b"
+            ]
+        },
+        {
+            "index": 6,
+            "pass": false,
+            "expected": false,
+            "actual": [
+                "mississippi",
+                "mis*is*p*."
+            ]
+        },
+        {
+            "index": 7,
+            "pass": false,
+            "expected": false,
+            "actual": [
+                "ab",
+                ".*c"
+            ]
+        }
+    ]
+}
