@@ -1,0 +1,51 @@
+{
+    "ok": true,
+    "pass": false,
+    "results": [
+        {
+            "index": 0,
+            "pass": false,
+            "expected": "ace",
+            "actual": [
+                "abcde",
+                "ace"
+            ]
+        },
+        {
+            "index": 1,
+            "pass": false,
+            "expected": "",
+            "actual": [
+                "abc",
+                "def"
+            ]
+        },
+        {
+            "index": 2,
+            "pass": false,
+            "expected": "GTAB",
+            "actual": [
+                "AGGTAB",
+                "GXTXAYB"
+            ]
+        },
+        {
+            "index": 3,
+            "pass": false,
+            "expected": "cdef",
+            "actual": [
+                "abcdef",
+                "zcdemf"
+            ]
+        },
+        {
+            "index": 4,
+            "pass": false,
+            "expected": "abc",
+            "actual": [
+                "abc",
+                "abc"
+            ]
+        }
+    ]
+}

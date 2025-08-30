@@ -1,0 +1,54 @@
+{
+    "ok": true,
+    "pass": false,
+    "results": [
+        {
+            "index": 0,
+            "pass": false,
+            "expected": 7,
+            "actual": [
+                "3+(2*2)"
+            ]
+        },
+        {
+            "index": 1,
+            "pass": false,
+            "expected": 13,
+            "actual": [
+                " 14-3/2 "
+            ]
+        },
+        {
+            "index": 2,
+            "pass": false,
+            "expected": 45,
+            "actual": [
+                "(2+3)*(4+5)"
+            ]
+        },
+        {
+            "index": 3,
+            "pass": false,
+            "expected": 11,
+            "actual": [
+                "1+2*3+4"
+            ]
+        },
+        {
+            "index": 4,
+            "pass": false,
+            "expected": 23,
+            "actual": [
+                "(1+(4+5+2)-3)+(6+8)"
+            ]
+        },
+        {
+            "index": 5,
+            "pass": false,
+            "expected": 21,
+            "actual": [
+                "2*(5+5*2)/3+(6/2+8)"
+            ]
+        }
+    ]
+}

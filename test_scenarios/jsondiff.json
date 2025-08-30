@@ -1,0 +1,135 @@
+{
+    "ok": true,
+    "pass": false,
+    "results": [
+        {
+            "index": 0,
+            "pass": false,
+            "expected": [
+                ".y"
+            ],
+            "actual": [
+                {
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "x": 1,
+                    "y": 3
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "pass": false,
+            "expected": [
+                ".a.b[1]"
+            ],
+            "actual": [
+                {
+                    "a": {
+                        "b": [
+                            1,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "a": {
+                        "b": [
+                            1,
+                            3
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "pass": false,
+            "expected": [
+                ".arr[2]"
+            ],
+            "actual": [
+                {
+                    "arr": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "arr": [
+                        1,
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "pass": false,
+            "expected": [
+                ".k"
+            ],
+            "actual": [
+                {
+                    "k": 1
+                },
+                {}
+            ]
+        },
+        {
+            "index": 4,
+            "pass": false,
+            "expected": [
+                ".a.b[1]",
+                ".x",
+                ".y"
+            ],
+            "actual": [
+                {
+                    "a": {
+                        "b": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    "x": 1
+                },
+                {
+                    "a": {
+                        "b": [
+                            1,
+                            3,
+                            3
+                        ]
+                    },
+                    "y": 2
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "pass": false,
+            "expected": [
+                ".k.m.n"
+            ],
+            "actual": [
+                {
+                    "k": {
+                        "m": {}
+                    }
+                },
+                {
+                    "k": {
+                        "m": {
+                            "n": 1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "ok": true,
+    "pass": false,
+    "results": [
+        {
+            "index": 0,
+            "pass": false,
+            "expected": 2,
+            "actual": 4
+        },
+        {
+            "index": 1,
+            "pass": true,
+            "expected": 1,
+            "actual": 1
+        },
+        {
+            "index": 2,
+            "pass": false,
+            "expected": 0,
+            "actual": 2
+        },
+        {
+            "index": 3,
+            "pass": false,
+            "expected": 0,
+            "actual": 3
+        },
+        {
+            "index": 4,
+            "pass": false,
+            "expected": 10,
+            "actual": 5
+        },
+        {
+            "index": 5,
+            "pass": false,
+            "expected": 92,
+            "actual": 8
+        }
+    ]
+}
